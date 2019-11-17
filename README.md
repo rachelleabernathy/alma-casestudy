@@ -1,4 +1,4 @@
-# Alma Restaurant Case Study
+# Restaurant Alma Case Study
 
 > case study of Restaurant Alma website
 
