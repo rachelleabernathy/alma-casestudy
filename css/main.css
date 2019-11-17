@@ -6,10 +6,11 @@
 
 html {
     box-sizing: border-box;
-  }
-  *, *:before, *:after {
+}
+
+*, *:before, *:after {
     box-sizing: inherit;
-  }
+}
 
 body {
     font-family: var(--font-sans-serif);
@@ -18,26 +19,59 @@ body {
     color: var(--teal);
     font-size: 1rem;
     line-height: 1.7;
- }
- 
- h1 {
+    background-color: #fffcf3; 
+}
+
+h1 {
     font-family: VegurRegular;
-    font-weight: 400;
     text-transform: uppercase;
     letter-spacing: 2px;
- }
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 55px;
+    margin-block-end: 25.5px;
+    margin-block-start: 0px;
+    margin-bottom: 25.5px;
+    
+}
 
- img {
-     max-width: 100%;
-     display: block;
-     padding: 15px;
- }
+h2 {
+    font-family: VegurRegular;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: .5rem;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 27.5px;
+    margin-bottom: 8.5px;   
+    text-size-adjust: 100%;
 
- .component img {
-     max-width: initial;
- }
+}
 
- .component__img {
-     border: 1px solid #ccc;
-     overflow-x: auto;
- }
+h4 {
+    font-family: VegurLight;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 18.7px;
+    margin-bottom: 8.5px;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    padding: 15px;
+}
+
+.component img {
+    max-width: initial;
+}
+
+.component__img {
+    border: 1px solid #ccc;
+    overflow-x: auto;
+}
