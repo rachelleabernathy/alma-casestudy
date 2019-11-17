@@ -20,9 +20,10 @@ body {
     font-size: 1rem;
     line-height: 1.7;
     background-color: #fffcf3; 
-    max-width: 100%;
+    max-width: 670px;
     display: block;
     padding: 15px;
+
 }
 
 h1 {
@@ -60,6 +61,21 @@ h2 {
 
 }
 
+h3 {
+    font-family: VegurLight;
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28.9px;
+    margin-block-end: 17px;
+    margin-bottom: 17px;
+    margin-left: 20px;
+    text-size-adjust: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 15px;
+}
+
 h4 {
     font-family: VegurLight;
     font-size: 17px;
@@ -82,6 +98,7 @@ p {
     text-size-adjust: 100%;
     box-sizing: border-box;
     display: block;
+    max-width: 650px;
 }
 
 img {
@@ -94,7 +111,85 @@ img {
     max-width: initial;
 }
 
-.component__img {
+.component {
     border: 1px solid #ccc;
     overflow-x: auto;
+    padding:10px;
+    margin: 10px;
 }
+
+.site-logo {
+    width: 100%;
+    display: block;
+    background: #103947;
+    text-align: center;
+    max-width: 240px;
+    padding: 5px;
+    margin: 0, 20px;
+}
+
+.site-nav {
+    font-family: VegurRegular;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background: #103947;
+    max-width: 240px;
+    margin: 0, 20px;
+}
+
+.site-nav-address {
+    box-sizing: border-box;
+    color: rgb(170, 136, 5);
+    display: block;
+    font-family: VegurRegular;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 23.8px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.site-nav-menu {
+    box-sizing: border-box;
+    color: rgb(170, 136, 5);
+    display: block;
+    font-family: VegurRegular;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 23.8px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    align-content: center;
+}
+
+button {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: VegurRegular;
+    color: #fff;
+    background-color: #aa8805;
+    border-color: #aa8805;
+}
+
+
