@@ -1,0 +1,43 @@
+:root {
+    --font-sans-serif: VegurLight, sans-serif;
+    --teal: #103947;
+    --white: #ffffff;
+}
+
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+
+body {
+    font-family: var(--font-sans-serif);
+    font-weight: 400;
+    font-style: regular;
+    color: var(--teal);
+    font-size: 1rem;
+    line-height: 1.7;
+ }
+ 
+ h1 {
+    font-family: VegurRegular;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+ }
+
+ img {
+     max-width: 100%;
+     display: block;
+     padding: 15px;
+ }
+
+ .component img {
+     max-width: initial;
+ }
+
+ .component__img {
+     border: 1px solid #ccc;
+     overflow-x: auto;
+ }
