@@ -26,18 +26,26 @@ body {
 }
 
 
-.component {
-    overflow-x: auto;
-    width: 1250px;
+.container {
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-.component__code {
+.container  .image {
+    flex: 1 0 0%;
 
+}
+
+.image img {
+    vertical-align: top;
+}
+
+.container .text {
+    flex: 2 0 0%;
 }
 
 
 .site-nav {
-    z-index: 0;
     font-family: VegurRegular;
     font-weight: 400;
     font-size: 14px;
@@ -47,12 +55,23 @@ body {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     background: #103947;
-    max-width: 240px;
-    margin: 0, 20px;
+    max-width: 305px;
     float: left;
 }
 
-
+.site-logo {
+    font-family: VegurRegular;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background: #103947;
+    width: 305px;
+    float: left;
+}
 
 .site-nav-address {
     box-sizing: border-box;
@@ -126,15 +145,7 @@ button {
     padding-right: 18px;
   }
 
-.background-image {
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
-    width: 100%;
-    overflow: hidden;
-    float: left;
-}
+
 
 
 
