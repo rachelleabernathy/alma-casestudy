@@ -25,14 +25,16 @@ body {
 
 }
 
-.bg-img {
-    position: relative;
+
+.component {
+    overflow-x: auto;
+    width: 1250px;
 }
 
-.container {
-    position: absolute;
-    
+.component__code {
+
 }
+
 
 .site-nav {
     z-index: 0;
@@ -124,15 +126,17 @@ button {
     padding-right: 18px;
   }
 
-.hero {
+.background-image {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
     width: 100%;
     overflow: hidden;
-    
+    float: left;
 }
+
+
 
 
 
