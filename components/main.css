@@ -1,0 +1,348 @@
+Skip to content
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@rachelleabernathy 
+Learn Git and GitHub without any code!
+Using the Hello World guide, you’ll start a branch, write comments, and open a pull request.
+
+
+1
+00rachelleabernathy/alma-casestudy
+ Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
+alma-casestudy/css/main.css
+@rachelleabernathy rachelleabernathy menu component
+280f6ef 15 days ago
+326 lines (293 sloc)  6.15 KB
+  
+:root {
+    --font-sans-serif: VegurLight, sans-serif;
+    --teal: #103947;
+    --white: #ffffff;
+}
+
+html {
+    box-sizing: border-box;
+    align-content: center;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: var(--font-sans-serif);
+    font-weight: 400;
+    font-style: regular;
+    color: var(--teal);
+    font-size: 1rem;
+    line-height: 1.7;
+    background-color: #fffcf3; 
+    max-width: 670px;
+    display: block;
+    padding: 15px;
+
+}
+
+h1 {
+    font-family: VegurRegular;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 55px;
+    margin-block-end: 25.5px;
+    margin-block-start: 0px;
+    margin-bottom: 25.5px;
+    max-width: 100%;
+    display: block;
+    padding: 15px;
+    
+}
+
+h2 {
+    font-family: VegurRegular;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-style: normal;
+    margin-bottom: .5rem;
+    font-size: 25px;
+    letter-spacing: 1px;
+    line-height: 27.5px;
+    margin-bottom: 8.5px;   
+    text-size-adjust: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 15px;
+
+}
+
+h3 {
+    font-family: VegurLight;
+    display: block;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28.9px;
+    margin-block-end: 17px;
+    margin-bottom: 17px;
+    margin-left: 20px;
+    text-size-adjust: 100%;
+    max-width: 100%;
+    display: block;
+    padding: 15px;
+}
+
+h4 {
+    font-family: VegurLight;
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 18.7px;
+    margin-bottom: 8.5px;
+    text-size-adjust: 100%;
+    text-transform: uppercase;
+    max-width: 100%;
+    display: block;
+    padding: 15px;
+}
+
+h5 {
+    margin-bottom: 0;
+    font-family: VegurLight;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 28.9px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    margin-block-end: 0px;
+    margin-block-start: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+p {
+    font-family: VegurLight;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 30.6px;
+    text-align: center;
+    text-size-adjust: 100%;
+    box-sizing: border-box;
+    display: block;
+    max-width: 650px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    padding: 15px;
+}
+
+.component img {
+    max-width: initial;
+}
+
+.component {
+    border: 1px solid #ccc;
+    overflow-x: auto;
+    width: 1250px;
+    padding:10px;
+    margin: 10px;
+}
+
+.site-logo {
+    width: 100%;
+    display: block;
+    background: #103947;
+    text-align: center;
+    max-width: 240px;
+    padding: 5px;
+    margin: 0, 20px;
+}
+
+.site-nav {
+    font-family: VegurRegular;
+    font-weight: 400;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    background: #103947;
+    max-width: 240px;
+    margin: 0, 20px;
+}
+
+.site-nav-address {
+    box-sizing: border-box;
+    color: rgb(170, 136, 5);
+    display: block;
+    font-family: VegurRegular;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 23.8px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.site-nav-menu {
+    box-sizing: border-box;
+    color: rgb(170, 136, 5);
+    display: block;
+    font-family: VegurRegular;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 23.8px;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 5px;
+    align-content: center;
+}
+
+li {
+    margin-top: 10px;
+    display: list-item;
+}
+
+button {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: VegurRegular;
+    color: #fff;
+    background-color: #aa8805;
+    border-color: #aa8805;
+    margin-top: 30px;
+}
+
+.button-blue {
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-top: 15px; 
+    padding-bottom: 15px;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: VegurRegular;
+    color: #fff;
+    background-color: #103947;
+    border-color: #103947;
+    margin-top: 30px;
+}
+
+.fa {
+    color: rgb(170, 136, 5);
+    padding: 20px;
+    align-content: center;
+    font-size: 70px;
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    position: relative;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 18px;
+  }
+
+.menu-item {
+    margin-bottom: 1.5rem;
+    box-sizing: border-box;
+    display: list-item;
+    font-size: 17px;
+    font-family: VegurLight;
+    font-weight: 400;
+    line-height: 28.9px;
+    list-style-image: none;
+    list-style-type: none;
+    margin-bottom: 25.5px;
+    text-align: center;
+}
+
+.menu-item__heading {
+    font-family: VegurRegular;
+    font-size: 17px;
+    font-weight: bold;
+    text-transform: capitalize;
+    line-height: 1.7;
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+    font-style: normal;
+    font-weight: 700;
+    list-style-image: none;
+    list-style-position: outside;
+    list-style-type: none;
+}
+
+ 
+
+.card__heading {
+    box-sizing: border-box;
+    color: #103947;
+    display: block;
+    font-size: 25px;
+    list-style-type: none;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-right: 60px;
+    margin-top: 0px;
+}
+
+.card__subheading {
+    box-sizing: border-box;
+    color: #103947;
+    display: block;
+    font-size: 17px;
+    line-height: 18.7px;
+    margin-bottom: 8.5px;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+
+.card__image {
+    box-sizing: border-box;
+    color: #103947;
+    display: block;
+    font-size: 17px;
+    line-height: 28.9px;
+    margin-bottom: 0;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  /* Clear floats after image containers */
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+
+
